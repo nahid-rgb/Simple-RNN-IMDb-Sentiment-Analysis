@@ -51,6 +51,10 @@ The model achieved **82.7% accuracy** on the IMDb test dataset.
 
 ## 🌐 Streamlit App
 
+Try the deployed Streamlit application:
+
+**[IMDb Movie Review Sentiment Analysis](https://simple-rnn-imdb-sentiment-analysis-gkhbkelibf6gjvwwppxzae.streamlit.app/)**
+
 The Streamlit application allows users to:
 
 * Enter a movie review
@@ -60,11 +64,13 @@ The Streamlit application allows users to:
 ## 📁 Project Structure
 
 ```text
-├── app.py
+├── main.py
 ├── simple_rnn_imdb.keras
-├── training.ipynb
+├── SimpleRNN.ipynb
 ├── prediction.ipynb
+├── embeddings.ipynb
 ├── requirements.txt
+├── runtime.txt
 └── .gitignore
 ```
 
@@ -89,7 +95,7 @@ pip install -r requirements.txt
 Run the Streamlit application:
 
 ```cmd
-streamlit run app.py
+streamlit run main.py
 ```
 
 The application will open in your browser.
